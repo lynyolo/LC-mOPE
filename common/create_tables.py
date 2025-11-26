@@ -3,8 +3,8 @@ import mysql.connector
 # 数据库连接配置
 config = {
     'host': 'localhost',
-    'user': 'root',
-    'password': 'root'
+    'user': 'username',
+    'password': 'password'
 }
 
 # 数据库列表
@@ -43,3 +43,4 @@ except mysql.connector.Error as err:
 finally:
     cursor.close()
     connection.close()
+
